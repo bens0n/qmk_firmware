@@ -2,10 +2,21 @@
     "manufacturer": "bens0n",
     "keyboard_name": "kara",
     "maintainer": "bens0n",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
     "usb": {
         "vid": "0xbe51",
         "pid": "0xd5ab",
         "device_version": "1.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgblight": true,
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
@@ -87,5 +98,11 @@
                 { "label": "\u2192", "matrix": [4, 16], "x": 17.36194, "y": 4 }
             ]
         }
-    }
+    },
+    "rgblight": {
+        "led_count": 24,
+        "brightness_steps":  5,
+        "max_brightness": 15,
+        "driver": "ws2812"
+    } 
 }
