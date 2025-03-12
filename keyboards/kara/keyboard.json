@@ -5,8 +5,8 @@
     "processor": "RP2040",
     "bootloader": "rp2040",
     "usb": {
-        "vid": "0xbe51",
-        "pid": "0xd5ab",
+        "vid": "0xBE51",
+        "pid": "0xD5AB",
         "device_version": "1.0.0"
     },
     "features": {
