@@ -102,7 +102,7 @@
     "rgblight": {
         "led_count": 24,
         "brightness_steps":  5,
-        "max_brightness": 15,
+        "max_brightness": 120,
         "driver": "ws2812"
     } 
 }
