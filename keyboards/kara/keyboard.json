@@ -4,6 +4,7 @@
     "maintainer": "bens0n",
     "processor": "RP2040",
     "bootloader": "rp2040",
+    "url": "https://github.com/bens0n/kara70",
     "usb": {
         "vid": "0xBE51",
         "pid": "0xD5AB",
@@ -98,6 +99,10 @@
                 { "label": "\u2192", "matrix": [4, 16], "x": 17.36194, "y": 4 }
             ]
         }
+    },
+    "ws2812": {
+        "driver": "vendor",
+        "pin": "GP0"
     },
     "rgblight": {
         "led_count": 24,
