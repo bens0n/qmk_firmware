@@ -105,9 +105,22 @@
         "pin": "GP0"
     },
     "rgblight": {
+        "animations": {
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": true,
+            "knight": true,
+            "christmas": true,
+            "static_gradient": true,
+            "rgb_test": true,
+            "alternating": true,
+            "twinkle": true
+        },
+
         "default": {
-            "hue": 169,
-            "sat": 255
+            "hue": 201,
+            "sat": 200
         },
         "led_count": 24,
         "brightness_steps":  5,
