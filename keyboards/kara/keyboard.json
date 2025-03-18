@@ -1,12 +1,12 @@
 {
     "manufacturer": "bens0n",
-    "keyboard_name": "kara",
+    "keyboard_name": "kara70",
     "maintainer": "bens0n",
     "processor": "RP2040",
     "bootloader": "rp2040",
     "url": "https://github.com/bens0n/kara70",
     "usb": {
-        "vid": "0xBE51",
+        "vid": "0xB4AE",
         "pid": "0xD5AB",
         "device_version": "1.0.0"
     },
@@ -15,7 +15,7 @@
         "command": false,
         "console": false,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": true,
         "rgblight": true
     },
@@ -86,7 +86,7 @@
                 { "label": ">", "matrix": [3, 10], "x": 10.25, "y": 3 },
                 { "label": "?", "matrix": [3, 11], "x": 11.25, "y": 3 },
                 { "label": "Shift", "matrix": [3, 12], "w": 2.75, "x": 12.25, "y": 3 },
-                { "label": "\u2191", "matrix": [3, 15], "x": 16.36194, "y": 3 },
+                { "label": "Up", "matrix": [3, 15], "x": 16.36194, "y": 3 },
                 { "label": "Ctrl", "matrix": [4, 0], "w": 1.25, "x": 0, "y": 4 },
                 { "label": "Alt", "matrix": [4, 1], "w": 1.25, "x": 1.25, "y": 4 },
                 { "label": "Cmd", "matrix": [4, 2], "w": 1.25, "x": 2.5, "y": 4 },
@@ -94,9 +94,9 @@
                 { "label": "Alt", "matrix": [4, 10], "w": 1.5, "x": 10.75, "y": 4 },
                 { "label": "Fn", "matrix": [4, 11], "w": 1.5, "x": 12.25, "y": 4 },
                 { "label": "Ctrl", "matrix": [4, 13], "w": 1.25, "x": 13.75, "y": 4 },
-                { "label": "\u2190", "matrix": [4, 14], "x": 15.36194, "y": 4 },
-                { "label": "\u2193", "matrix": [4, 15], "x": 16.36194, "y": 4 },
-                { "label": "\u2192", "matrix": [4, 16], "x": 17.36194, "y": 4 }
+                { "label": "Left", "matrix": [4, 14], "x": 15.36194, "y": 4 },
+                { "label": "Right", "matrix": [4, 15], "x": 16.36194, "y": 4 },
+                { "label": "Down", "matrix": [4, 16], "x": 17.36194, "y": 4 }
             ]
         }
     },
@@ -105,9 +105,13 @@
         "pin": "GP0"
     },
     "rgblight": {
+        "default": {
+            "hue": 169,
+            "sat": 255
+        },
         "led_count": 24,
         "brightness_steps":  5,
         "max_brightness": 120,
         "driver": "ws2812"
-    } 
+    }
 }
