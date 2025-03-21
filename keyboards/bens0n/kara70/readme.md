@@ -1,20 +1,20 @@
-# kara
+# kara70
 
-![kara](imgur.com image replace me!)
+![kara70](https://imgur.com/ZI3de0v.jpeg)
 
-*A short description of the keyboard/project*
+![kara70](https://imgur.com/PhrHZbd.jpeg)
 
 * Keyboard Maintainer: [bens0n](https://github.com/bens0n)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Hardware Supported: kara70 PCB (see above) based on RP2040 Stamp
+* Hardware Availability: [github](https://github.com/bens0n/kara70)
 
 Make example for this keyboard (after setting up your build environment):
 
-    make kara:default
+    make bens0n/kara70:default
 
 Flashing example for this keyboard:
 
-    make kara:default:flash
+    make bens0n/kara70:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
